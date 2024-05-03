@@ -1,0 +1,112 @@
+/* SupportPage.css */
+
+/* Existing styles */
+.support-container {
+  background-color: #f0f0f0;
+  padding: 20px;
+  margin-top: 5cm;
+  height: 50%;
+}
+
+.support-section {
+  display: flex;
+  flex-wrap: wrap; /* Add flex-wrap to wrap content on smaller screens */
+}
+
+.left-side {
+  flex: 1;
+  margin-bottom: 20px; /* Add margin bottom for spacing */
+}
+
+.right-side {
+  flex: 1;
+  padding: 20px;
+  margin-left: 2cm;
+}
+
+.right-side p {
+  font-size: 16px;
+  color: #666;
+}
+
+.right-side img {
+  width: 100%; /* Adjust image width to fit container */
+  height: auto; /* Maintain aspect ratio */
+}
+
+.right-side h1 {
+  font-size: 24px;
+  color: #333;
+}
+
+.left-side iframe {
+  width: 100%; /* Adjust iframe width to fit container */
+  height: 60%;
+  object-fit: cover;
+  margin-top: 2cm; /* Adjust margin top */
+}
+
+.support-info {
+  display: flex;
+  flex-wrap: wrap; /* Wrap items on smaller screens */
+  justify-content: space-around;
+}
+
+.support-box {
+  text-align: center;
+  width: 45%;
+  padding: 10px;
+  margin: 10px;
+  border: 1px solid #ddd;
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.support-box img {
+  width: 50px;
+  height: 50px;
+  margin-bottom: 10px;
+}
+
+.support-box h4 {
+  font-size: 18px;
+  color: #333;
+}
+
+.support-box p {
+  font-size: 14px;
+  color: #666;
+}
+
+.support-box i {
+  font-size: 3rem;
+}
+
+/* Media Queries */
+@media screen and (max-width: 768px) {
+  .support-section {
+      flex-direction: column; /* Adjust flex direction for smaller screens */
+  }
+
+  .left-side,
+  .right-side {
+      flex: 1;
+      margin-left: 0; /* Remove left margin for smaller screens */
+  }
+
+  .right-side {
+      padding: 10px; /* Adjust padding for smaller screens */
+  }
+
+  .left-side iframe {
+      margin-top: 10px; /* Adjust margin top for smaller screens */
+  }
+
+  .support-info {
+      flex-direction: column; /* Adjust flex direction for smaller screens */
+  }
+
+  .support-box {
+      width: 90%; /* Adjust width for smaller screens */
+  }
+}

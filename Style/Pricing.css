@@ -1,0 +1,77 @@
+/* Pricing.css */
+
+.pricing-container {
+  background-color: #f0f0f0;
+  padding: 20px;
+  margin-top: 2cm;
+}
+
+.pricing-content {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.top-section {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+h1,
+h2 {
+  color: #002D62 !important;
+}
+
+.pricing-boxes-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.pricing-box {
+  flex: 0 0 30%;
+  /* Each pricing box takes 30% of the width */
+  margin: 20px;
+  border: 1px solid #ddd;
+  padding: 20px;
+  text-align: center;
+  background-color: #fff;
+}
+
+.price-info h3 {
+  background-color: #002D62;
+  color: #fff;
+}
+
+.small-text {
+  font-size: 0.8em;
+}
+
+.learn-more-btn {
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.learn-more-btn:hover {
+  background-color: #0056b3;
+}
+
+/* Media Query for Responsive Design */
+
+@media only screen and (max-width: 992px) {
+  .pricing-box {
+    flex: 0 0 45%;
+    /* Each pricing box takes 45% of the width on smaller screens */
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .pricing-box {
+    flex: 0 0 100%;
+    /* Each pricing box takes 100% of the width on even smaller screens */
+  }
+}

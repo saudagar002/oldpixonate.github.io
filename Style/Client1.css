@@ -1,0 +1,110 @@
+/* Feedback.css */
+
+.feedback-container {
+    background-color: #f8f8f8;
+    padding: 20px;
+    margin-bottom:2cm;
+  }
+  
+  .top-section {
+    text-align: center;
+  }
+  
+  .feedback-content {
+    background-color:#002D62;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+  }
+  
+  .stars {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .feedbacker {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  .feedbacker img {
+    border-radius: 50%;
+    width: 50px;
+    margin-right: 10px;
+  }
+  
+
+  /* FeedbackCarousel.css */
+
+.feedback-container {
+    background-color: #f8f8f8;
+    padding: 50px 0;
+  }
+  
+  .top-section {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  
+  .top-section p {
+    font-size: 18px;
+    color: #333;
+  }
+  
+  .top-section h1 {
+    font-size: 28px;
+    color: #333;
+    margin-top: 10px;
+  }
+  
+  .carousel-item-padding-40px {
+    padding: 40px;
+  }
+  
+  .feedback-content {
+    text-align: center;
+  }
+  
+  .stars {
+    font-size: 24px;
+    color: #ffc107;
+    margin-bottom: 20px;
+  }
+  
+  p {
+    font-size: 16px;
+    color: #555;
+  }
+  
+  .feedbacker {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  .feedbacker img {
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    margin-right: 10px;
+  }
+  
+  .feedbacker div {
+    text-align: left;
+  }
+  
+  .feedbacker div p {
+    margin: 0;
+    font-size: 14px;
+    color: #777;
+  }
+  
+  /* Client.css */
+.carousel-image {
+    height: 400px; /* Set your desired height */
+    object-fit: cover; /* Preserve the aspect ratio while covering the entire container */
+  }
+  

@@ -1,0 +1,73 @@
+.what-we-do-container {
+  background-color: #f4f4f4;
+  padding: 20px;
+  margin-top: 2cm;
+}
+
+.page-content {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.top-section {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.service-boxes-container {
+  display: flex; /* Use flexbox to display items in a row */
+  gap: 20px; /* Adjust the gap between service boxes */
+  justify-content: center; /* Center the service boxes horizontally */
+  flex-wrap: wrap; /* Allow the boxes to wrap to the next line if needed */
+}
+
+.service-box {
+  flex: 1 0 calc(25% - 20px); /* Adjust the width as needed */
+  max-width: calc(25% - 20px); /* Adjust the width as needed */
+  height: auto; /* Remove fixed height */
+  box-sizing: border-box;
+  border: 1px solid #ddd;
+  padding: 20px;
+  border-radius: 8px;
+  background-color: #fff;
+  text-align: center;
+}
+
+.service-box img {
+  max-width: 100%;
+  height: auto;
+}
+
+.service-box a {
+  color: #007bff;
+  text-decoration: none;
+  margin-top: 10px;
+  display: inline-block;
+}
+
+.learn {
+  font-size: 13px;
+}
+
+@media only screen and (max-width: 768px) {
+  .service-box {
+    width: 100% !important;
+    max-width: 300px;
+    box-sizing: border-box;
+    border: 1px solid #ddd;
+    padding: 20px;
+    border-radius: 8px;
+    background-color: #fff;
+    margin-bottom: 20px;
+  }
+
+  .what-we-do-container {
+    background-color: #f4f4f4;
+    padding: 20px;
+  }
+}
+
+/* Adjust the font size of the icons */
+.service-box .content i {
+  font-size: 2em; /* Adjust the font size as needed */
+}

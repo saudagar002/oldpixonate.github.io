@@ -1,0 +1,124 @@
+/* Home.css */
+
+.home-container {
+  position: relative;
+  margin-top: 0;
+}
+
+.carousel {
+  width: 100%;
+}
+
+.home-content {
+  position: absolute;
+  top: 50%;
+  right: 0;
+  transform: translateY(-50%);
+  width: 90%;
+  /* Adjusted width for smaller screens */
+  max-width: 400px;
+  /* Set a maximum width to avoid stretching on larger screens */
+  /* / padding: 20px;  */
+  /* background-color: #fff; */
+  /* Set your background color */
+  margin-right: 5%;
+  /* Added margin for spacing on the right */
+  color: #07121e;
+}
+
+.home-text {
+  margin-bottom: 20px;
+}
+
+.home-text .p {
+  color: #07121e;
+}
+
+
+.button-row {
+  display: flex;
+  flex-direction: column;
+  /* Adjusted to stack buttons vertically on small screens */
+  gap: 10px;
+}
+
+.home-buttons {
+  display: flex;
+  flex-direction: column;
+  /* Adjusted to stack buttons vertically on small screens */
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.btn {
+  width: 100%;
+  /* Ensures buttons take full width on small screens */
+  padding: 10px;
+  font-size: 16px;
+  text-decoration: none;
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+}
+
+.btn-primary {
+  background-color: #07121e;
+  color: #fff;
+}
+
+.btn-secondary {
+  color: #fff;
+}
+
+.btn:hover {
+  opacity: 0.8;
+}
+
+.button-row:hover .btn {
+  opacity: 1;
+}
+
+@media screen and (min-width: 768px) {
+  .home-content {
+    width: 40%;
+    max-width: none;
+  }
+
+  .button-row {
+    flex-direction: row;
+  }
+
+  .home-buttons {
+    flex-direction: row;
+  }
+}
+
+.background-image {
+  background-image: url(/public/Machine1.jpg);
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 900px;
+}
+
+/* styles.css */
+.custom-text {
+  color: red;
+  font-size: 30px;
+  font-weight: 900;
+}
+
+
+.custom-text-1 {
+color: black;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.custom-high {
+  color: #fff;
+
+  }
+
+

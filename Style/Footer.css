@@ -1,0 +1,53 @@
+/* Footer.css */
+
+
+.social-icons {
+  display: flex;
+  justify-content: space-between;
+  /* Use space-between for social icons */
+  padding: 1rem;
+  border-bottom: 1px solid #fff;
+}
+
+.company-info {
+  display: flex;
+  flex-wrap: wrap;
+  /* Allow columns to wrap on smaller screens */
+  justify-content: space-between;
+
+  background-color: #002d62;
+  color: aliceblue;
+  height: 45rem;
+  margin-top: auto;
+}
+
+.column {
+  flex: 1 1 30%;
+  /* Adjust the width of columns for smaller screens */
+  margin-right: 2rem;
+  margin-bottom: 2rem;
+  /* Add margin-bottom for spacing between columns */
+}
+
+.column h6 {
+  color: #fff;
+}
+
+.column p {
+  color: #ccc;
+}
+
+.copy-right {
+  text-align: center;
+  padding: 1rem;
+  background-color: rgba(0, 0, 0, 0.05);
+}
+
+/* Media Query for Responsive Design */
+@media only screen and (max-width: 768px) {
+  .column {
+    flex: 1 1 100%;
+    /* Each column takes 100% width on smaller screens */
+    margin-right: 0;
+  }
+}

@@ -1,0 +1,71 @@
+/* MachineVisionPage.css */
+
+.new-page-container {
+  margin: 0 auto;
+  padding: 20px;
+  max-width: 1200px;
+}
+
+.support-container {
+  background-color: #f0f0f0;
+  padding: 20px;
+  margin-top: 2cm;
+  overflow: hidden;
+}
+
+.support-section {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.right-side {
+  flex: 1;
+  padding: 20px;
+}
+
+.Dev-2 {
+  margin-right: 5cm;
+  /* max-width: 50%; */
+  height: 4cm;
+}
+
+.right-side p {
+  font-size: 16px;
+  color: #666;
+}
+
+.right-side img.support-image {
+  height: auto;
+  width: 100%;
+  max-width: 100%;
+}
+
+.right-side h1 {
+  font-size: 24px;
+  color: #333;
+}
+
+.highlighted-p {
+  border: 1px solid rgb(0, 0, 0);
+  padding: 10px;
+  position: relative;
+  margin-bottom: 10px;
+  flex-basis: calc(50% - 20px);
+}
+
+.highlighted-p::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 50%;
+  height: 100%;
+  background-color: rgb(68, 64, 64);
+  z-index: -1;
+}
+
+@media (max-width: 768px) {
+  .highlighted-p {
+    flex-basis: calc(100% - 20px);
+  }
+}

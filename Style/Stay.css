@@ -1,0 +1,100 @@
+/* LeaveMessage.css */
+.leave-message-container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  background-image: url(/public/Banner-4.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+h2 {
+  text-align: center;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+textarea {
+  margin-bottom: 10px;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  resize: vertical;
+}
+
+button {
+  padding: 10px;
+  background-color: #3498db;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #2980b9;
+}
+
+/* StayTuned.css */
+.stay-tuned-container {
+  background-color: #002d62;
+  /* Background color for the entire page */
+  padding: 20px;
+  text-align: center;
+  margin-top: 2cm;
+  margin-bottom: 2cm;
+}
+
+h2.get-info {
+  color: white;
+}
+
+p {
+  color: #777;
+  margin-bottom: 20px;
+}
+
+.contact-info {
+  display: flex;
+  justify-content: space-around;
+}
+
+.info-item {
+  text-align: left;
+  color: #2980b9;
+  /* Or any other color you prefer */
+}
+
+img {
+  width: 30px;
+  height: 30px;
+  margin-right: 10px;
+}
+
+.get-info {
+
+  color: #fff !important
+}
+
+/* Media Queries */
+@media screen and (max-width: 768px) {
+  .leave-message-container {
+    max-width: 100%;
+    padding: 10px;
+  }
+
+  h2 {
+    font-size: 1.5rem;
+  }
+
+  .stay-tuned-container {
+    padding: 10px;
+    margin-top: 1cm;
+    margin-bottom: 1cm;
+  }
+}

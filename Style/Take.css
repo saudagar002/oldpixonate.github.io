@@ -1,0 +1,60 @@
+/* SupportPage.css */
+
+/* Existing styles */
+.support-container {
+    background-color: #f0f0f0;
+    padding: 20px;
+    margin-top: 2cm;
+    height: 70%;
+    overflow: hidden;
+    /* Add this line */
+}
+
+.support-section {
+    display: flex;
+}
+
+.right-side {
+    flex: 1;
+    padding: 20px;
+}
+
+.Dev-1 {
+    margin-right: 5cm;
+}
+
+.right-side p {
+    font-size: 16px;
+    color: #666;
+}
+
+.right-side img {
+    height: 50%;
+    width: 100%;
+}
+
+.right-side h1 {
+    font-size: 24px;
+    color: #333;
+}
+
+/* Media Queries */
+@media screen and (max-width: 768px) {
+    .support-section {
+        flex-direction: column;
+    }
+
+    .Dev-1 {
+        margin-right: 0;
+        margin-top: 20px;
+    }
+
+    .right-side {
+        padding: 0;
+        text-align: center;
+    }
+
+    .right-side img {
+        height: auto;
+    }
+}

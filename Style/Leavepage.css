@@ -1,0 +1,23 @@
+/* LeaveMessage.css */
+/* ... (previous styles) */
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+input,
+textarea {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+/* ... (previous styles) */

@@ -1,0 +1,39 @@
+/* AboutUs.css */
+
+.about-us-container {
+  padding: 20px;
+  margin: 0 auto; /* Center the container */
+  max-width: 1200px; /* Set a maximum width for the container */
+  background-color: aliceblue;
+}
+
+.about-us-content {
+  display: flex;
+  flex-direction: column; /* Adjust the layout for smaller screens */
+  justify-content: space-between;
+  align-items: center;
+}
+
+.about-left,
+.about-right {
+  width: 100%; /* Full width on smaller screens */
+  margin-bottom: 20px; /* Add some spacing between the sections */
+}
+
+.about-right img {
+  width: 100%; /* Full width for the image on smaller screens */
+  height: auto; /* Maintain aspect ratio */
+  border-radius: 8px;
+}
+
+@media screen and (min-width: 768px) {
+  .about-us-content {
+    flex-direction: row; /* Reset to horizontal layout for larger screens */
+  }
+
+  .about-left,
+  .about-right {
+    width: 48%; /* Adjust the width as needed */
+    margin-bottom: 0; /* Reset margin for larger screens */
+  }
+}
